@@ -11,6 +11,8 @@ https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Pet_Products_v
 ## Results
 The summary results do not show any biased toward 5-star reviews from paid Vine reviews.
 
+![PdVsUnPaid](https://user-images.githubusercontent.com/95837693/163699373-cfc6a50e-ac9e-423c-8418-01cbb078d554.PNG)
+
 * Looking at reviews with at least 20 total votes & 50% of their votes classified as "helpful", the number of reviews in our analysis was:
 	** 170 paid reviews
 	** 37,840 unpaid reviews
