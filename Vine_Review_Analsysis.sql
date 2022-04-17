@@ -52,3 +52,9 @@ INSERT INTO summary (type, numofreviews, numof5stars, perc5stars)
 	
 	
 SELECT * FROM summary;
+
+SELECT type AS "Review Type", 
+	to_char(numofreviews, '99,999') AS "Number of Reviews",
+	to_char(numof5stars, '99,999')  AS "Number of 5 Star Reviews",
+	CONCAT(to_char((perc5stars *100), '99.99'),'%') AS "Percent of 5 Star Reviews"
+FROM summary;
